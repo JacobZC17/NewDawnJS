@@ -1,12 +1,12 @@
-[07:12:34] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
-[07:12:34] [ForkJoinPool-1-worker-1/WARN]: Mod platforms_common uses the version unspecified which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'unspecified'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:12:34] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[07:12:35] [main/WARN]: Warnings were found!
+[22:37:12] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.9
+[22:37:12] [ForkJoinPool-1-worker-2/WARN]: Mod platforms_common uses the version unspecified which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'unspecified'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:37:12] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:37:14] [main/WARN]: Warnings were found!
  - Mod 'Debugify' (debugify) 1.21+1.0 recommends any version of yet_another_config_lib_v3, which is missing!
 	 - You should install any version of yet_another_config_lib_v3 for the optimal experience.
  - Mod 'Living Things' (livingthings) 1.21-2.1.0 recommends any version of patchouli, which is missing!
 	 - You should install any version of patchouli for the optimal experience.
-[07:12:35] [main/INFO]: Loading 284 mods:
+[22:37:14] [main/INFO]: Loading 305 mods:
 	- additionalstructures 5.0.0-fabric
 	- advancednetherite 2.1.6-1.21
 	- amendments 1.21-1.2.19
@@ -14,6 +14,8 @@
 	- ante 1.2
 	- appleskin 3.0.6+mc1.21
 	- architectury 13.0.8
+	- backslot 1.2.15
+	   \-- amecsapi 1.5.5+mc1.20.2
 	- badpackets 0.8.1
 	- balm-fabric 21.0.20
 	   \-- kuma_api 21.0.5-SNAPSHOT
@@ -26,6 +28,7 @@
 	   |-- com_google_inject_guice 7.0.0
 	   |-- jakarta_inject_jakarta_inject-api 2.0.1
 	   \-- platforms_common unspecified
+	- betterarcheology 1.3.1
 	- bettercombat 2.0.4+1.21.1
 	- betterendisland 1.21.1-Fabric-3.1.1
 	   \-- org_reflections_reflections 0.10.2
@@ -34,6 +37,18 @@
 	- betternether 21.0.11
 	- bigendcitiesmod 1.21-1.1.0
 	- biomesoplenty 21.0.0.18
+	- bosses_of_mass_destruction 1.10.2-1.21.1
+	   \-- multipart_entities 1.7-1.21
+	- cardiac 0.5.3.3
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
 	- carryon 2.2.1
 	- cavedust 3.0.0
 	   \-- kirin 1.19.0+1.21
@@ -45,8 +60,6 @@
 	- cobweb 1.3.0
 	- collective 7.87
 	- comforts 9.0.3+1.21.1
-	   |-- cardinal-components-base 6.1.0
-	   |-- cardinal-components-entity 6.1.0
 	   \-- spectrelib 0.17.2+1.21
 	        |-- com_electronwill_night-config_core 3.8.0
 	        \-- com_electronwill_night-config_toml 3.8.0
@@ -184,6 +197,7 @@
 	- farsight 1.21-4.4
 	   \-- org_jctools_jctools-core 4.0.1
 	- fastpaintings 1.21-1.2.15
+	- firstperson 2.4.8
 	- forgeconfigapiport 21.0.8
 	   |-- com_electronwill_night-config_core 3.8.0
 	   \-- com_electronwill_night-config_toml 3.8.0
@@ -208,9 +222,11 @@
 	- handcrafted 4.0.1
 	- hopobetterunderwaterruins 1.2.0
 	- incendium 5.4.3
+	- ipo 4
 	- itemphysic 1.7.2
 	- java 21
 	- justhammers 21.0.3
+	- justpotionrings 1.3
 	- knightlib 1.2.0
 	- knightquest 1.8.1
 	- konkrete 1.9.9
@@ -220,6 +236,7 @@
 	- lithium 0.13.0
 	- lithostitched 1.3.8
 	- livingthings 1.21-2.1.0
+	- mace3d 1.1.0
 	- macevariants 1.0.4
 	- mcwfurnitures 3.3.0
 	- mcwlights 1.1.1
@@ -228,7 +245,9 @@
 	- medievalend 1.0.2
 	- mes 1.3.5-1.21-fabric
 	- minecraft 1.21
+	- mob_drops_recipes_overworld 2.1.0
 	- modernfix 5.19.1+mc1.21
+	- monolib 1.4.1
 	- moonlight 1.21-2.17.12
 	- moveboats 3.4
 	- mr_aesthetic_andperformant 4.5
@@ -241,6 +260,8 @@
 	- nullscape 1.2.9
 	- nyfsspiders 2.3.1
 	   \-- commonnetworking 1.0.11-1.21
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
 	- packedup 1.0.30+c
 	- pandalib 0.4.2
 	- playeranimator 2.0.0+1.21.1
@@ -286,6 +307,7 @@
 	- trade_cycling 1.21.1-1.0.15
 	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
 	   \-- fabric-screen-api-v1 2.0.24+b55973446a
+	- trinkets 3.10.0
 	- underground_bunkers 1.0.4
 	- universal-graves 3.4.4+1.21
 	   |-- common-protection-api 1.0.0
@@ -304,6 +326,7 @@
 	   |-- predicate-api 0.5.1+1.21
 	   |-- server_translations_api 2.3.1+1.21-pre2
 	   \-- sgui 1.6.0+1.21
+	- usefulhats 1.21-6.4.1.0
 	- variantsandventures 1.0.6
 	- veinminer 2.1.5
 	   \-- de_miraculixx_core 2.1.5
@@ -336,355 +359,379 @@
 	- yungsapi 1.21.1-Fabric-5.1.3
 	   |-- org_javassist_javassist 3.29.2-GA
 	   \-- org_reflections_reflections 0.10.2
-[07:12:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/NewDawnJS/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:12:36] [main/INFO]: Compatibility level set to JAVA_21
-[07:12:36] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'diagonalfences.common.refmap.json' for diagonalfences.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'diagonalfences.fabric.refmap.json' for diagonalfences.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.compat.modmenu.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'globalxp-fabric-1.20.6-refmap.json' for globalxp.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:36] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
-[07:12:37] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
-[07:12:37] [main/INFO]: Applying Nashorn fix
-[07:12:37] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:37] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[07:12:37] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
-[07:12:37] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
-[07:12:37] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
-[07:12:37] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
-[07:12:37] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[07:12:37] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
-[07:12:38] [main/WARN]: Error loading class: net/minecraft/class_638$class_5271 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5271)
-[07:12:38] [main/WARN]: @Mixin target net.minecraft.class_638$class_5271 was not found dust.mixins.json:ClientWorldAccessor from mod cavedust
-[07:12:38] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
-[07:12:38] [main/WARN]: @Mixin target net.minecraft.class_340 was not found dust.mixins.json:MixinDebugScreenOverlay from mod cavedust
-[07:12:38] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
-[07:12:38] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
-[07:12:38] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[07:12:38] [main/WARN]: Error loading class: net/minecraft/class_591 (java.lang.ClassNotFoundException: net/minecraft/class_591)
-[07:12:38] [main/WARN]: @Mixin target net.minecraft.class_591 was not found playerAnimator-common.mixins.json:PlayerModelAccessor from mod playeranimator
-[07:12:38] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
-[07:12:38] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
-[07:12:39] [main/WARN]: Error loading class: net/minecraft/class_1066 (java.lang.ClassNotFoundException: net/minecraft/class_1066)
-[07:12:39] [main/WARN]: @Mixin target net.minecraft.class_1066 was not found rpc.mixins.json:DownloadedPackSourceMixin from mod rpc
-[07:12:39] [main/WARN]: Error loading class: net/minecraft/class_9044 (java.lang.ClassNotFoundException: net/minecraft/class_9044)
-[07:12:39] [main/WARN]: @Mixin target net.minecraft.class_9044 was not found rpc.mixins.json:ServerPackManagerMixin from mod rpc
-[07:12:39] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[07:12:39] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[07:12:39] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
-[07:12:39] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
-[07:12:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[07:12:43] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[07:12:43] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[07:12:43] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[07:12:46] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[07:12:46] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[07:12:51] [main/WARN]: Discarding @Unique public method getSlotIndex in porting_lib_extensions.mixins.json:common.SlotMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_1735
-[07:12:53] [main/INFO]: Vanilla bootstrap took 12965 milliseconds
-[07:12:54] [main/INFO]: fabric loader environment detected
-[07:12:54] [main/INFO]: Loaded config for: cupboard.json
-[07:12:55] [main/INFO]: Reflections took 208 ms to scan 1 urls, producing 9 keys and 76 values
-[07:12:56] [main/ERROR]: No data fixer registered for seat
-[07:12:57] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[07:12:57] [main/INFO]: Loaded config amendments-common.json
-[07:12:57] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
-[07:12:57] [main/INFO]: [Basic Weapons] Armaments added
-[07:12:57] [main/INFO]: Better Compatibility Checker starting
-[07:12:57] [main/INFO]: Loading config file
-[07:12:57] [main/INFO]: Config file loaded
-[07:12:57] [main/INFO]: Initializing Better Chests!
-[07:12:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[07:12:58] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
-[07:12:58] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
-[07:12:58] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
-[07:12:58] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
-[07:12:58] [main/INFO]: [STDOUT]: All 6 have been set properly
-[07:12:58] [main/INFO]: Loading Collective version 7.87.
-[07:12:59] [main/ERROR]: No data fixer registered for jungle_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for bamboo_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for desert_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for badlands_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for hills_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for savannah_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for mushroom_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for swamp_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for dripstone_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for cave_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for dark_oak_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for spruce_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for beach_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for snowy_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for ocean_creeper
-[07:12:59] [main/ERROR]: No data fixer registered for birch_creeper
-[07:12:59] [main/INFO]: Creating default config file: croptopia_v3.conf
-[07:12:59] [Cicada thread 0/INFO]: [cicada] Oh hi there BCLib, try not to cause any trouble will ya?
-[07:12:59] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[07:12:59] [main/INFO]: Successfully Debugify'd your game!
-[07:12:59] [main/INFO]: Constructing common components for diagonalblocks:main
-[07:12:59] [main/INFO]: Constructing common components for diagonalfences:main
-[07:12:59] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 47ms
-[07:13:00] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 47ms
-[07:13:00] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 111ms
-[07:13:00] [main/INFO]: Constructing common components for easyanvils:main
-[07:13:00] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[07:13:00] [main/INFO]: Constructing common components for easymagic:main
-[07:13:00] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[07:13:00] [main/INFO]: Initializing Eco Stack Manager (Fabric) with . ...
-[07:13:00] [main/INFO]: 🌐 Register Eco Stack Manager  Configuration ...
-[07:13:00] [main/INFO]: [Config] Updated configuration path to ./config/eco_stack_manager
-[07:13:00] [main/INFO]: [Config] Experience Orb Configuration is up to date: {move_position_to_last_drop=false, collect_radius=4}
-[07:13:00] [main/INFO]: [Config] Item Entity Configuration is up to date: {max_number_of_items_per_type=32, max_number_of_items_per_world=128, move_position_to_last_drop=false, deny_list=minecraft:diamond,minecraft:diamond_block, allow_list=, max_stack_size=64, collect_radius=3, verification_cycle=64}
-[07:13:00] [main/INFO]: 🌐 Register Eco Stack Manager  Debug Manager ...
-[07:13:00] [main/INFO]: 🌐 Register Eco Stack Manager  additional mod support ...
-[07:13:00] [main/INFO]: Checking for additional mods for avoiding incompatibility ...
-[07:13:00] [main/ERROR]: ERROR: Clumps groups XP orbs together into a new single entity, which will conflict with the XP Orb feature of this mod!
-[07:13:00] [main/WARN]: Don't use both optimizations together! Clustering of Experience Orbs will be automatically disabled!
-[07:13:00] [main/INFO]: 🌐 Register Eco Stack Manager  Entity events ...
-[07:13:00] [main/INFO]: 🌐 Register Eco Stack Manager  Commands ...
-[07:13:00] [main/INFO]: Successfully loaded config 'fallingtrees_common'
-[07:13:00] [main/INFO]: Successfully saved config 'fallingtrees_common'
-[07:13:00] [main/ERROR]: No data fixer registered for rotten_tomato
-[07:13:01] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
-[07:13:01] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
-[07:13:01] [main/ERROR]: No data fixer registered for biomesoplenty:boat
-[07:13:01] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
-[07:13:01] [main/ERROR]: No data fixer registered for anomaly
-[07:13:01] [main/ERROR]: No data fixer registered for season_sensor
-[07:13:04] [main/ERROR]: No data fixer registered for handcrafted
-[07:13:04] [main/ERROR]: No data fixer registered for gremlin
-[07:13:04] [main/ERROR]: No data fixer registered for eldbomb
-[07:13:04] [main/ERROR]: No data fixer registered for eldknight
-[07:13:04] [main/ERROR]: No data fixer registered for samhain
-[07:13:04] [main/ERROR]: No data fixer registered for swampman
-[07:13:04] [main/ERROR]: No data fixer registered for fallen_knight
-[07:13:04] [main/ERROR]: No data fixer registered for ratman
-[07:13:04] [main/ERROR]: No data fixer registered for lizzy
-[07:13:04] [main/ERROR]: No data fixer registered for bad_patch
-[07:13:04] [main/ERROR]: No data fixer registered for ghastling
-[07:13:04] [main/ERROR]: No data fixer registered for momma_lizzy
-[07:13:04] [main/ERROR]: No data fixer registered for ghosty
-[07:13:04] [main/ERROR]: No data fixer registered for netherman
-[07:13:04] [main/ERROR]: No data fixer registered for netherman_clone
-[07:13:04] [main/ERROR]: No data fixer registered for netherman_projectile_charge
-[07:13:04] [main/ERROR]: No data fixer registered for swampman_axe
-[07:13:04] [main/INFO]: [Knight Quest] The mod 'forgeconfigapiport' was detected, reading config file `knightquest.toml` for Knight Quest.
-[07:13:04] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[07:13:04] [main/INFO]: ---------------------------
-[07:13:04] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[07:13:04] [main/INFO]:  
-[07:13:04] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[07:13:04] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[07:13:04] [main/INFO]:  
-[07:13:04] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[07:13:04] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[07:13:04] [main/INFO]:  
-[07:13:04] [main/INFO]: Json-smart Copyright © netplex.
-[07:13:04] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[07:13:04] [main/INFO]:  
-[07:13:04] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[07:13:04] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[07:13:04] [main/INFO]: ---------------------------
-[07:13:04] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[07:13:04] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[07:13:04] [main/INFO]: Processing wover.datapack.registry Entrypoints
-[07:13:04] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
-[07:13:04] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
-[07:13:04] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
-[07:13:04] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
-[07:13:04] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
-[07:13:05] [main/INFO]: Loaded FabricRegistrationFactory for service Factory
-[07:13:05] [main/INFO]: Loaded FabricPlatformHelper for service IPlatformHelper
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:elephant
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:giraffe
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:lion
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:shark
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:penguin
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:ostrich
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:flamingo
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:crab
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:mantaray
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:raccoon
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:owl
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:ancient_blaze
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:koala
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:snail
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:monkey
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:nether_knight
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:shroomie
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:seahorse
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:baby_ender_dragon
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:peacock
-[07:13:05] [main/ERROR]: No data fixer registered for livingthings:thrown_ostrich_egg
-[07:13:05] [main/INFO]: Config 'livingthings.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'penguin.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'elephant.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'giraffe.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'lion.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'shark.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'ostrich.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'flamingo.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'crab.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'mantaray.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'raccoon.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'owl.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'ancient_blaze.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'koala.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'snail.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'monkey.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'nether_knight.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'shroomie.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'seahorse.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'baby_ender_dragon.json' was successfully loaded.
-[07:13:05] [main/INFO]: Config 'peacock.json' was successfully loaded.
-[07:13:05] [main/INFO]: Registering MobAttributes
-[07:13:05] [main/INFO]: Registering SpawnPlacements
-[07:13:05] [main/INFO]: Definitely not up to no good
-[07:13:05] [main/INFO]: Loading Noisium.
-[07:13:05] [main/INFO]: Hello Fabric world!
-[07:13:05] [main/INFO]: Registering C2S receiver with id pandalib:client_config_sync
-[07:13:05] [main/INFO]: Loading mod pointblank
-[07:13:05] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
-[07:13:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
-[07:13:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
-[07:13:05] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
-[07:13:05] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
-[07:13:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:401)
-[07:13:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:243)
-[07:13:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
-[07:13:05] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
-[07:13:05] [main/INFO]: [STDERR]: 	at knot//net.minecraft.server.Main.main(Main.java:111)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
-[07:13:05] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
-[07:13:05] [main/ERROR]: No data fixer registered for javelin_rocket
-[07:13:05] [main/ERROR]: No data fixer registered for at4_rocket
-[07:13:05] [main/ERROR]: No data fixer registered for grenade40mm
-[07:13:05] [main/ERROR]: No data fixer registered for grenade20mm
-[07:13:05] [main/ERROR]: No data fixer registered for smaw_rocket
-[07:13:05] [main/INFO]: Constructing common components for puzzleslib:main
-[07:13:06] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[07:13:06] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
-[07:13:06] [main/INFO]: Initializing Silk
-[07:13:06] [main/INFO]: Hello Fabric world!
-[07:13:06] [main/INFO]: [STDOUT]: Team Addoners Initializing
-[07:13:06] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[07:13:06] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[07:13:06] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[07:13:06] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[07:13:06] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[07:13:06] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[07:13:06] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[07:13:06] [main/INFO]: Veinminer Version: 2.1.5 (fabric)
-[07:13:06] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
-[07:13:06] [main/INFO]: Constructing common components for visualworkbench:main
-[07:13:06] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[07:13:06] [main/INFO]: [voicechat] Compatibility version 18
-[07:13:06] [main/INFO]: [voicechat] Loading plugins
-[07:13:06] [main/INFO]: [voicechat] Loaded 1 plugin(s)
-[07:13:06] [main/INFO]: [voicechat] Initializing plugins
-[07:13:06] [main/INFO]: Initializing Simple Voice Chat integration
-[07:13:06] [main/INFO]: [voicechat] Initialized 1 plugin(s)
-[07:13:06] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
-[07:13:06] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
-[07:13:07] [main/INFO]: [WTHIT] Initializing plugin betternether:plugin at org.betterx.betternether.integrations.wthit.WailaPlugin
-[07:13:07] [main/INFO]: Registering Waila-/Wthit-Plugin.
-[07:13:07] [main/INFO]: [WTHIT] Initializing plugin globalxp:plugin at bl4ckscor3.mod.globalxp.compat.WTHITDataProvider
-[07:13:07] [main/INFO]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
-[07:13:07] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
-[07:13:07] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
-[07:13:07] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
-[07:13:07] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
-[07:13:07] [main/INFO]: [WTHIT] Initializing plugin waystones:wthit at net.blay09.mods.waystones.compat.WTHITIntegration
-[07:13:07] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
-[07:13:07] [main/ERROR]: [WTHIT] Found plugins registered via legacy platform-dependant method:
-[07:13:07] [main/ERROR]: [WTHIT] [waystones:wthit]
-[07:13:07] [main/INFO]: [WTHIT] Plugin config reloaded
-[07:13:07] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[07:13:07] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 3 values
-[07:13:07] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[07:13:07] [main/INFO]: Initialized block sets in 37ms
-[07:13:07] [main/ERROR]: No data fixer registered for falling_lantern
-[07:13:07] [main/INFO]: Loaded config fastpaintings-common.json
-[07:13:07] [main/INFO]: Initialized color sets in 56ms
-[07:13:08] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:13:08] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
-[07:13:08] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
-[07:13:08] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
-[07:13:08] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
-[07:13:08] [main/INFO]: Running Pre Patchers on ./world/.
-[07:13:08] [main/INFO]: Everything up to date
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (273bd040)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (5f92e302)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (563e672a)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (77371933)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1ec228a8)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:10] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (3519c302)
-[07:13:10] [main/INFO]: Unable to build Biome List yet
-[07:13:10] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:10] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:bone_reef (class_4762[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (class_4762[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_pinewood (class_4762[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:flooded_deltas (class_4762[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:gravel_desert (class_4762[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:magma_land (class_4762[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_grasslands (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_jungle (class_4762[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland (class_4762[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (class_4762[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_fungiwoods (class_4762[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_swampland (class_4762[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_warped_woods (class_4762[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (class_4762[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:soul_plain (class_4762[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (class_4762[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest (class_4762[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (class_4762[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest (class_4762[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest_edge (class_4762[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
-[07:13:11] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1d84fb0c)
-[07:13:11] [main/INFO]: Unable to build Biome List yet
-[07:13:11] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:11] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (719f3be2)
-[07:13:11] [main/INFO]: Unable to build Biome List yet
-[07:13:11] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:11] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:12] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/mvs:rare - Failed to parse either. First: Not a valid resource location: #minecraft:enchant_with_levels Non [a-z0-9_.-] character in namespace of location: #minecraft:enchant_with_levels; Second: Not a json array: {"function":"#minecraft:enchant_with_levels","options":"#minecraft:on_random_loot","levels":{"type":"minecraft:uniform","min":20,"max":39},"treasure":true}
-[07:13:12] [Worker-Main-1/ERROR]: Unable to building bartering table
-[07:13:12] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[07:13:13] [Worker-Main-1/INFO]: 🌐 Register Eco Stack Manager  /eco_stack_manager commands for Eco Stack Manager ...
-[07:13:13] [Worker-Main-1/INFO]: Command '/livingthings' registered
-[07:13:14] [main/INFO]: Disabling Recipe: bclib:test_star
-[07:13:14] [main/ERROR]: Parsing error loading recipe pointblank:g3
+[22:37:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/NewDawnJS/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:37:15] [main/INFO]: Compatibility level set to JAVA_21
+[22:37:16] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'diagonalfences.common.refmap.json' for diagonalfences.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'diagonalfences.fabric.refmap.json' for diagonalfences.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'do_a_barrel_roll.refmap.json' for do_a_barrel_roll.compat.modmenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'globalxp-fabric-1.20.6-refmap.json' for globalxp.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/INFO]: Loaded configuration file for Lithium: 144 options available, 1 override(s) found
+[22:37:16] [main/INFO]: Loaded configuration file for ModernFix 5.19.1+mc1.21: 54 options available, 0 override(s) found
+[22:37:16] [main/INFO]: Applying Nashorn fix
+[22:37:16] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:16] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_881 (java.lang.ClassNotFoundException: net/minecraft/class_881)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_881 was not found porting_lib_base.mixins.json:client.BoatRendererMixin from mod porting_lib_base
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_525 (java.lang.ClassNotFoundException: net/minecraft/class_525)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_525 was not found porting_lib_base.mixins.json:client.CreateWorldScreenMixin from mod porting_lib_base
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_item_abilities.mixins.json:FishingHookRendererMixin from mod porting_lib_item_abilities
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_638$class_5271 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5271)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_638$class_5271 was not found dust.mixins.json:ClientWorldAccessor from mod cavedust
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_340 (java.lang.ClassNotFoundException: net/minecraft/class_340)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_340 was not found dust.mixins.json:MixinDebugScreenOverlay from mod cavedust
+[22:37:17] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[22:37:17] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[22:37:18] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[22:37:18] [main/WARN]: Error loading class: net/minecraft/class_591 (java.lang.ClassNotFoundException: net/minecraft/class_591)
+[22:37:18] [main/WARN]: @Mixin target net.minecraft.class_591 was not found playerAnimator-common.mixins.json:PlayerModelAccessor from mod playeranimator
+[22:37:18] [main/WARN]: Error loading class: net/minecraft/class_638 (java.lang.ClassNotFoundException: net/minecraft/class_638)
+[22:37:18] [main/WARN]: @Mixin target net.minecraft.class_638 was not found porting_lib_level_events.mixins.json:client.ClientLevelMixin from mod porting_lib_level_events
+[22:37:18] [main/WARN]: Error loading class: net/minecraft/class_1066 (java.lang.ClassNotFoundException: net/minecraft/class_1066)
+[22:37:18] [main/WARN]: @Mixin target net.minecraft.class_1066 was not found rpc.mixins.json:DownloadedPackSourceMixin from mod rpc
+[22:37:18] [main/WARN]: Error loading class: net/minecraft/class_9044 (java.lang.ClassNotFoundException: net/minecraft/class_9044)
+[22:37:18] [main/WARN]: @Mixin target net.minecraft.class_9044 was not found rpc.mixins.json:ServerPackManagerMixin from mod rpc
+[22:37:18] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[22:37:19] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[22:37:19] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[22:37:19] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[22:37:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:37:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:37:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[22:37:24] [main/INFO]: Injecting BlockStateBase cache population hook into lithium$getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[22:37:28] [main/WARN]: Static binding violation: PRIVATE @Overwrite method method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[22:37:28] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[22:37:34] [main/WARN]: Discarding @Unique public method getSlotIndex in porting_lib_extensions.mixins.json:common.SlotMixin from mod porting_lib_extensions because it already exists in net.minecraft.class_1735
+[22:37:36] [main/INFO]: Vanilla bootstrap took 14956 milliseconds
+[22:37:37] [main/INFO]: fabric loader environment detected
+[22:37:37] [main/INFO]: Loaded config for: cupboard.json
+[22:37:37] [main/INFO]: Reflections took 248 ms to scan 1 urls, producing 9 keys and 76 values
+[22:37:38] [main/ERROR]: No data fixer registered for seat
+[22:37:40] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[22:37:40] [main/INFO]: Loaded config amendments-common.json
+[22:37:40] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[22:37:40] [main/INFO]: [Basic Weapons] Armaments added
+[22:37:40] [main/INFO]: Better Compatibility Checker starting
+[22:37:40] [main/INFO]: Loading config file
+[22:37:40] [main/INFO]: Config file loaded
+[22:37:40] [main/INFO]: Initializing Better Chests!
+[22:37:40] [main/INFO]: Registering Worldgen/structure Types for Better Archeology
+[22:37:40] [main/ERROR]: No data fixer registered for betterarcheology:bombentity
+[22:37:40] [main/INFO]: Registering Entity Types for Better Archeology
+[22:37:40] [main/INFO]: Registering Enchantments for Better Archeology
+[22:37:40] [main/INFO]: Registering Creative Mode Tabs for Better Archeology
+[22:37:40] [main/INFO]: Registering Items for Better Archeology
+[22:37:40] [main/INFO]: Registering Blocks for Better Archeology
+[22:37:40] [main/INFO]: Registering Tags for Better Archeology
+[22:37:40] [main/INFO]: Registering Block Entity Types for Better Archeology
+[22:37:40] [main/INFO]: Registering Menus for Better Archeology
+[22:37:40] [main/INFO]: Registering Recipe Serializers for Better Archeology
+[22:37:40] [main/INFO]: Registering Villager Professions for Better Archeology
+[22:37:40] [main/INFO]: Registering Events for Better Archeology
+[22:37:40] [main/INFO]: Registering Sound Events for Better Archeology
+[22:37:40] [main/INFO]: Registering Villager Trades for Better Archeology
+[22:37:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+[22:37:40] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+[22:37:40] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[22:37:40] [main/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+[22:37:40] [main/INFO]: =^..^=    BetterNether for 1.21    =^..^=
+[22:37:41] [main/INFO]: [STDOUT]: All 6 have been set properly
+[22:37:41] [main/ERROR]: No data fixer registered for life_orb
+[22:37:41] [main/ERROR]: No data fixer registered for thrown_life_bottle
+[22:37:41] [main/INFO]: Loading Collective version 7.87.
+[22:37:42] [main/ERROR]: No data fixer registered for jungle_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for bamboo_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for desert_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for badlands_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for hills_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for savannah_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for mushroom_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for swamp_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for dripstone_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for cave_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for dark_oak_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for spruce_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for beach_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for snowy_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for ocean_creeper
+[22:37:42] [main/ERROR]: No data fixer registered for birch_creeper
+[22:37:42] [main/INFO]: Creating default config file: croptopia_v3.conf
+[22:37:42] [Cicada thread 0/INFO]: [cicada] Oh hi there BCLib, try not to cause any trouble will ya?
+[22:37:43] [main/INFO]: Enabled 28 bug fixes: [MC-2025, MC-7569, MC-8187, MC-30391, MC-69216, MC-88371, MC-89146, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
+[22:37:43] [main/INFO]: Successfully Debugify'd your game!
+[22:37:43] [main/INFO]: Constructing common components for diagonalblocks:main
+[22:37:43] [main/INFO]: Constructing common components for diagonalfences:main
+[22:37:43] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=24.0,ExtensionBottom=0.0,ExtensionTop=24.0] took 43ms
+[22:37:43] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=2.0,NodeTop=16.0,ExtensionBottom=0.0,ExtensionTop=16.0] took 46ms
+[22:37:43] [main/INFO]: Constructing shapes for DiagonalFenceBlock[NodeWidth=2.0,ExtensionWidth=1.0,NodeTop=16.0,ExtensionBottom=6.0,ExtensionTop=15.0] took 119ms
+[22:37:43] [main/INFO]: Constructing common components for easyanvils:main
+[22:37:43] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[22:37:43] [main/INFO]: Constructing common components for easymagic:main
+[22:37:43] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[22:37:43] [main/INFO]: Initializing Eco Stack Manager (Fabric) with . ...
+[22:37:43] [main/INFO]: 🌐 Register Eco Stack Manager  Configuration ...
+[22:37:43] [main/INFO]: [Config] Updated configuration path to ./config/eco_stack_manager
+[22:37:43] [main/INFO]: [Config] Experience Orb Configuration is up to date: {move_position_to_last_drop=false, collect_radius=4}
+[22:37:43] [main/INFO]: [Config] Item Entity Configuration is up to date: {max_number_of_items_per_type=32, max_number_of_items_per_world=128, move_position_to_last_drop=false, deny_list=minecraft:diamond,minecraft:diamond_block, allow_list=, max_stack_size=64, collect_radius=3, verification_cycle=64}
+[22:37:43] [main/INFO]: 🌐 Register Eco Stack Manager  Debug Manager ...
+[22:37:43] [main/INFO]: 🌐 Register Eco Stack Manager  additional mod support ...
+[22:37:43] [main/INFO]: Checking for additional mods for avoiding incompatibility ...
+[22:37:43] [main/ERROR]: ERROR: Clumps groups XP orbs together into a new single entity, which will conflict with the XP Orb feature of this mod!
+[22:37:43] [main/WARN]: Don't use both optimizations together! Clustering of Experience Orbs will be automatically disabled!
+[22:37:43] [main/INFO]: 🌐 Register Eco Stack Manager  Entity events ...
+[22:37:43] [main/INFO]: 🌐 Register Eco Stack Manager  Commands ...
+[22:37:43] [main/INFO]: Successfully loaded config 'fallingtrees_common'
+[22:37:43] [main/INFO]: Successfully saved config 'fallingtrees_common'
+[22:37:44] [main/ERROR]: No data fixer registered for rotten_tomato
+[22:37:44] [main/INFO]: Registered synced config with path sereneseasons/fertility.toml
+[22:37:44] [main/INFO]: Registered synced config with path sereneseasons/seasons.toml
+[22:37:45] [main/ERROR]: No data fixer registered for biomesoplenty:boat
+[22:37:45] [main/ERROR]: No data fixer registered for biomesoplenty:chest_boat
+[22:37:45] [main/ERROR]: No data fixer registered for anomaly
+[22:37:45] [main/ERROR]: No data fixer registered for season_sensor
+[22:37:47] [main/ERROR]: No data fixer registered for handcrafted
+[22:37:47] [main/ERROR]: No data fixer registered for gremlin
+[22:37:47] [main/ERROR]: No data fixer registered for eldbomb
+[22:37:47] [main/ERROR]: No data fixer registered for eldknight
+[22:37:47] [main/ERROR]: No data fixer registered for samhain
+[22:37:47] [main/ERROR]: No data fixer registered for swampman
+[22:37:47] [main/ERROR]: No data fixer registered for fallen_knight
+[22:37:47] [main/ERROR]: No data fixer registered for ratman
+[22:37:47] [main/ERROR]: No data fixer registered for lizzy
+[22:37:47] [main/ERROR]: No data fixer registered for bad_patch
+[22:37:47] [main/ERROR]: No data fixer registered for ghastling
+[22:37:47] [main/ERROR]: No data fixer registered for momma_lizzy
+[22:37:47] [main/ERROR]: No data fixer registered for ghosty
+[22:37:47] [main/ERROR]: No data fixer registered for netherman
+[22:37:47] [main/ERROR]: No data fixer registered for netherman_clone
+[22:37:47] [main/ERROR]: No data fixer registered for netherman_projectile_charge
+[22:37:47] [main/ERROR]: No data fixer registered for swampman_axe
+[22:37:47] [main/INFO]: [Knight Quest] The mod 'forgeconfigapiport' was detected, reading config file `knightquest.toml` for Knight Quest.
+[22:37:47] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[22:37:47] [main/INFO]: ---------------------------
+[22:37:47] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[22:37:47] [main/INFO]:  
+[22:37:47] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[22:37:47] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[22:37:47] [main/INFO]:  
+[22:37:47] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[22:37:47] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[22:37:47] [main/INFO]:  
+[22:37:47] [main/INFO]: Json-smart Copyright © netplex.
+[22:37:47] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[22:37:47] [main/INFO]:  
+[22:37:47] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[22:37:47] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[22:37:47] [main/INFO]: ---------------------------
+[22:37:47] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[22:37:47] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[22:37:47] [main/INFO]: Processing wover.datapack.registry Entrypoints
+[22:37:47] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.BiomeDatapackRegistryEntrypoint
+[22:37:47] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.FeatureDatapackRegistryEntrypoint
+[22:37:47] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.ItemDatapackRegistryEntrypoint
+[22:37:47] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.StructureDatapackRegistryEntrypoint
+[22:37:47] [main/INFO]:     - Processing Entrypoint: org.betterx.wover.entrypoint.SurfaceDatapackRegistryEntrypoint
+[22:37:48] [main/INFO]: Loaded FabricRegistrationFactory for service Factory
+[22:37:48] [main/INFO]: Loaded FabricPlatformHelper for service IPlatformHelper
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:elephant
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:giraffe
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:lion
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:shark
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:penguin
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:ostrich
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:flamingo
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:crab
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:mantaray
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:raccoon
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:owl
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:ancient_blaze
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:koala
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:snail
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:monkey
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:nether_knight
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:shroomie
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:seahorse
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:baby_ender_dragon
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:peacock
+[22:37:48] [main/ERROR]: No data fixer registered for livingthings:thrown_ostrich_egg
+[22:37:48] [main/INFO]: Config 'livingthings.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'penguin.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'elephant.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'giraffe.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'lion.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'shark.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'ostrich.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'flamingo.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'crab.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'mantaray.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'raccoon.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'owl.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'ancient_blaze.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'koala.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'snail.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'monkey.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'nether_knight.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'shroomie.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'seahorse.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'baby_ender_dragon.json' was successfully loaded.
+[22:37:48] [main/INFO]: Config 'peacock.json' was successfully loaded.
+[22:37:48] [main/INFO]: Registering MobAttributes
+[22:37:48] [main/INFO]: Registering SpawnPlacements
+[22:37:48] [main/INFO]: Definitely not up to no good
+[22:37:48] [main/INFO]: Loading Noisium.
+[22:37:48] [main/INFO]: Hello Fabric world!
+[22:37:48] [main/INFO]: Registering C2S receiver with id pandalib:client_config_sync
+[22:37:48] [main/INFO]: Loading mod pointblank
+[22:37:48] [main/INFO]: [STDERR]: java.nio.file.NoSuchFileException: ./pointblank
+[22:37:48] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+[22:37:48] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixException.asIOException(UnixException.java:115)
+[22:37:48] [main/INFO]: [STDERR]: 	at java.base/sun.nio.fs.UnixFileSystemProvider.newDirectoryStream(UnixFileSystemProvider.java:477)
+[22:37:48] [main/INFO]: [STDERR]: 	at java.base/java.nio.file.Files.newDirectoryStream(Files.java:481)
+[22:37:48] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.scanExtensions(ExtensionRegistry.java:401)
+[22:37:48] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.registry.ExtensionRegistry.discoverExtensions(ExtensionRegistry.java:243)
+[22:37:48] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankInitializer.init(PointBlankInitializer.java:37)
+[22:37:48] [main/INFO]: [STDERR]: 	at knot//com.vicmatskiv.pointblank.PointBlankMod.onInitialize(PointBlankMod.java:9)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:399)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63)
+[22:37:48] [main/INFO]: [STDERR]: 	at knot//net.minecraft.server.Main.main(Main.java:111)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+[22:37:48] [main/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+[22:37:49] [main/ERROR]: No data fixer registered for javelin_rocket
+[22:37:49] [main/ERROR]: No data fixer registered for at4_rocket
+[22:37:49] [main/ERROR]: No data fixer registered for grenade40mm
+[22:37:49] [main/ERROR]: No data fixer registered for grenade20mm
+[22:37:49] [main/ERROR]: No data fixer registered for smaw_rocket
+[22:37:49] [main/INFO]: Constructing common components for puzzleslib:main
+[22:37:49] [main/INFO]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[22:37:49] [main/INFO]: [ServerCore] Loaded V1.5.4+1.21!
+[22:37:49] [main/INFO]: Initializing Silk
+[22:37:49] [main/INFO]: Hello Fabric world!
+[22:37:49] [main/INFO]: [STDOUT]: Team Addoners Initializing
+[22:37:49] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22:37:49] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[22:37:49] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[22:37:49] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[22:37:49] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[22:37:49] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[22:37:49] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[22:37:50] [main/INFO]: Veinminer Version: 2.1.5 (fabric)
+[22:37:50] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[22:37:50] [main/INFO]: Constructing common components for visualworkbench:main
+[22:37:50] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[22:37:50] [main/INFO]: [voicechat] Compatibility version 18
+[22:37:50] [main/INFO]: [voicechat] Loading plugins
+[22:37:50] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[22:37:50] [main/INFO]: [voicechat] Initializing plugins
+[22:37:50] [main/INFO]: Initializing Simple Voice Chat integration
+[22:37:50] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[22:37:50] [main/INFO]: [voicechat] Registering events for 'sound_physics_remastered'
+[22:37:50] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[22:37:50] [main/INFO]: [WTHIT] Initializing plugin betternether:plugin at org.betterx.betternether.integrations.wthit.WailaPlugin
+[22:37:50] [main/INFO]: Registering Waila-/Wthit-Plugin.
+[22:37:50] [main/INFO]: [WTHIT] Initializing plugin globalxp:plugin at bl4ckscor3.mod.globalxp.compat.WTHITDataProvider
+[22:37:50] [main/INFO]: [WTHIT] Initializing plugin waystones:plugin at net.blay09.mods.waystones.compat.WTHITIntegration
+[22:37:50] [main/INFO]: [WTHIT] Initializing common plugin waila:core at mcp.mobius.waila.plugin.core.CoreCommonPlugin
+[22:37:50] [main/INFO]: [WTHIT] Initializing common plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.VanillaCommonPlugin
+[22:37:50] [main/INFO]: [WTHIT] Initializing common plugin waila:harvest at mcp.mobius.waila.plugin.harvest.HarvestCommonPlugin
+[22:37:50] [main/INFO]: [WTHIT] Initializing common plugin waila:fabric at mcp.mobius.waila.plugin.fabric.FabricCommonPlugin
+[22:37:50] [main/INFO]: [WTHIT] Initializing plugin waystones:wthit at net.blay09.mods.waystones.compat.WTHITIntegration
+[22:37:50] [main/INFO]: [WTHIT] Initializing common plugin waila:extra at mcp.mobius.waila.plugin.extra.ExtraPlugin
+[22:37:50] [main/ERROR]: [WTHIT] Found plugins registered via legacy platform-dependant method:
+[22:37:50] [main/ERROR]: [WTHIT] [waystones:wthit]
+[22:37:50] [main/INFO]: [WTHIT] Plugin config reloaded
+[22:37:50] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[22:37:50] [main/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 3 values
+[22:37:51] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[22:37:51] [main/INFO]: Initialized block sets in 56ms
+[22:37:51] [main/ERROR]: No data fixer registered for falling_lantern
+[22:37:51] [main/INFO]: Loaded config fastpaintings-common.json
+[22:37:51] [main/INFO]: Initialized color sets in 79ms
+[22:37:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:37:52] [main/INFO]: Ignoring Patch{ModCore: bclib (bclib):3.0.11:196619}
+[22:37:52] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):5.3.5:328453}
+[22:37:52] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):8.2.2:524802}
+[22:37:52] [main/INFO]: Ignoring Patch{ModCore: betternether (betternether):9.0.1:589825}
+[22:37:52] [main/INFO]: Running Pre Patchers on ./world/.
+[22:37:52] [main/INFO]: Everything up to date
+[22:37:52] [main/INFO]: Found new data pack betterarcheology, loading it automatically
+[22:37:52] [main/INFO]: Found new data pack cardiac, loading it automatically
+[22:37:52] [main/INFO]: Found new data pack justpotionrings, loading it automatically
+[22:37:52] [main/INFO]: Found new data pack mob_drops_recipes_overworld, loading it automatically
+[22:37:52] [main/INFO]: Found new data pack trinkets, loading it automatically
+[22:37:52] [main/INFO]: Found new data pack usefulhats, loading it automatically
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2c2b0fcf)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (69d47b82)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (144cfa19)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (77ea722c)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (5bd04690)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:55] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (9bab585)
+[22:37:55] [main/INFO]: Unable to build Biome List yet
+[22:37:55] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:bone_reef (class_4762[temperature=-100, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_glowing_woods (class_4762[temperature=4000, humidity=-500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:crimson_pinewood (class_4762[temperature=3500, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:flooded_deltas (class_4762[temperature=-3000, humidity=-100, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1750])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:gravel_desert (class_4762[temperature=-1000, humidity=1000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=2000])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:magma_land (class_4762[temperature=8000, humidity=-7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_grasslands (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_jungle (class_4762[temperature=5000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_mushroom_forest_edge (class_4762[temperature=0, humidity=7000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland (class_4762[temperature=1000, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:nether_swampland_terraces (class_4762[temperature=800, humidity=8500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_fungiwoods (class_4762[temperature=0, humidity=6500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_swampland (class_4762[temperature=1000, humidity=7500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1000])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:old_warped_woods (class_4762[temperature=0, humidity=5500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3750])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:poor_nether_grasslands (class_4762[temperature=0, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:soul_plain (class_4762[temperature=100, humidity=-5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:sulfuric_bone_reef (class_4762[temperature=0, humidity=6000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=3700])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest (class_4762[temperature=4500, humidity=8000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:upside_down_forest_cleared (class_4762[temperature=4500, humidity=3000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=1250])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest (class_4762[temperature=-5000, humidity=5000, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:55] [main/INFO]: Adding Nether Biome to Fabric: betternether:wart_forest_edge (class_4762[temperature=-5000, humidity=4500, continentalness=0, erosion=0, depth=0, weirdness=0, offset=0])
+[22:37:56] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (1e03bde5)
+[22:37:56] [main/INFO]: Unable to build Biome List yet
+[22:37:56] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:56] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:37:56] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (2a6a67c8)
+[22:37:56] [main/INFO]: Unable to build Biome List yet
+[22:37:56] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:56] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:37:56] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/mvs:rare - Failed to parse either. First: Not a valid resource location: #minecraft:enchant_with_levels Non [a-z0-9_.-] character in namespace of location: #minecraft:enchant_with_levels; Second: Not a json array: {"function":"#minecraft:enchant_with_levels","options":"#minecraft:on_random_loot","levels":{"type":"minecraft:uniform","min":20,"max":39},"treasure":true}
+[22:37:57] [Worker-Main-1/ERROR]: Unable to building bartering table
+[22:37:57] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[22:37:58] [Worker-Main-1/INFO]: 🌐 Register Eco Stack Manager  /eco_stack_manager commands for Eco Stack Manager ...
+[22:37:58] [Worker-Main-1/INFO]: Command '/livingthings' registered
+[22:37:59] [main/INFO]: Disabling Recipe: bclib:test_star
+[22:37:59] [main/ERROR]: Parsing error loading recipe pointblank:g3
 com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key item in MapLike[{"count":5,"id":"minecraft:gold_ingot"}]; No key tag in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]; No key item in MapLike[{"count":9,"id":"minecraft:iron_ingot"}]
 	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
@@ -700,200 +747,750 @@ com.google.gson.JsonParseException: No key tag in MapLike[{"count":5,"id":"minec
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
-[07:13:15] [main/INFO]: Loaded 5616 recipes
-[07:13:15] [main/INFO]: Added 0 recipes in 2ms
-[07:13:16] [main/ERROR]: Couldn't load advancements: [minecraft:give_quest_trader_trade, minecraft:wander_add_map]
-[07:13:16] [main/INFO]: Loaded 4380 advancements
-[07:13:16] [Thread-9/INFO]: Loaded 58 translation keys
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (45b174e3)
-[07:13:16] [main/INFO]: Added 11 Biomes
-[07:13:16] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:soul_plain, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_swampland, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
-[07:13:16] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1a5884a)
-[07:13:16] [main/INFO]: Added 2 Biomes
-[07:13:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[07:13:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[07:13:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[07:13:16] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (45b174e3)
-[07:13:16] [main/INFO]: Added 11 Biomes
-[07:13:16] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:soul_plain, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_swampland, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
-[07:13:16] [main/INFO]: Enforcing Correct Generator for minecraft:the_nether.
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (45b174e3)
-[07:13:16] [main/INFO]: Added 11 Biomes
-[07:13:16] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:soul_plain, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_swampland, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
-[07:13:16] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
-[07:13:16] [main/INFO]: Added 4 biomes to wover:is_end/highland in 2.609 ms
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1a5884a)
-[07:13:16] [main/INFO]: Added 2 Biomes
-[07:13:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[07:13:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[07:13:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[07:13:16] [main/INFO]: Enforcing Correct Generator for minecraft:the_end.
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1a5884a)
-[07:13:16] [main/INFO]: Added 2 Biomes
-[07:13:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[07:13:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[07:13:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[07:13:16] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:16] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
-[07:13:16] [main/INFO]: Loading World with initially configured Dimensions.
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (1a5884a)
-[07:13:16] [main/INFO]: Added 2 Biomes
-[07:13:16] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
-[07:13:16] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
-[07:13:16] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
-[07:13:16] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (45b174e3)
-[07:13:16] [main/INFO]: Added 11 Biomes
-[07:13:16] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:soul_plain, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_swampland, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
-[07:13:16] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
-[07:13:16] [main/INFO]: Applied 56 biome modifications and added 16 tags to 18 of 288 biomes in 26.12 ms
-[07:13:17] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[07:13:18] [main/INFO]: Applied 3246 biome modifications to 288 of 288 new biomes in 399.2 ms
-[07:13:18] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
-[07:13:18] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[07:13:18] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[07:13:18] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 79139 bytes (in 8 string chunks with the size of 10000)
-[07:13:18] [Server thread/INFO]: Loading server configs...
-[07:13:18] [Server thread/INFO]: [WTHIT] Plugin config reloaded
-[07:13:18] [Server thread/INFO]: Starting minecraft server version 1.21
-[07:13:18] [Server thread/INFO]: Loading properties
-[07:13:18] [Server thread/INFO]: Default game type: SURVIVAL
-[07:13:18] [Server thread/INFO]: Generating keypair
-[07:13:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:13:19] [Server thread/INFO]: Using epoll channel type
-[07:13:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:13:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:13:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:13:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:13:19] [Server thread/INFO]: Preparing level "world"
-[07:13:19] [Server thread/INFO]: World Dimensions: 
- - minecraft:the_nether: 
-     WoVer - Chunk Generator (a7504a3)
-         preset     = none
-         noise      = minecraft:nether
-         features   = minecraft(41), rocks(6), betternether(95), incendium(36), biomesoplenty(27), waystones(1), croptopia(2)
-     WoVer - Nether BiomeSource (45b174e3)
-         biomes     = 40
-         namespaces = betternether(22), incendium(8), biomesoplenty(5), minecraft(5)
-         seed       = 0
-         height     = 192
-         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
+[22:37:59] [main/ERROR]: Parsing error loading recipe mob_drops_recipes_overworld:rotten_flesh
+com.google.gson.JsonParseException: Pattern references symbol 'S' but it's not defined in the key
+	at knot/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_1863.method_20705(class_1863.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1863.method_18788(class_1863.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4080.method_18790(class_4080.java:13) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_4014.method_18365(class_4014.java:69) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43498(class_156.java:1024) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_156.method_43499(class_156.java:1012) [server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
+[22:38:00] [main/INFO]: Loaded 5713 recipes
+[22:38:00] [main/INFO]: Added 0 recipes in 3ms
+[22:38:00] [main/ERROR]: Couldn't load advancements: [minecraft:give_quest_trader_trade, minecraft:wander_add_map]
+[22:38:00] [main/INFO]: Loaded 4463 advancements
+[22:38:00] [main/WARN]: Could not decode GlobalLootModifier with json id cardiac:life_bottle - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: cardiac:life_bottle
+[22:38:00] [Thread-9/INFO]: Loaded 58 translation keys
+[22:38:00] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (37af5baa)
+[22:38:00] [main/INFO]: Added 11 Biomes
+[22:38:00] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[22:38:00] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[22:38:00] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:38:00] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:38:00] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4c24072f)
+[22:38:00] [main/INFO]: Added 2 Biomes
+[22:38:00] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[22:38:00] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[22:38:00] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[22:38:00] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:38:00] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (37af5baa)
+[22:38:01] [main/INFO]: Added 11 Biomes
+[22:38:01] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[22:38:01] [main/INFO]: Enforcing Correct Generator for minecraft:the_nether.
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (37af5baa)
+[22:38:01] [main/INFO]: Added 11 Biomes
+[22:38:01] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[22:38:01] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:38:01] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.nether.WoverNetherBiomeSource
+[22:38:01] [main/INFO]: Added 4 biomes to wover:is_end/highland in 2.827 ms
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4c24072f)
+[22:38:01] [main/INFO]: Added 2 Biomes
+[22:38:01] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[22:38:01] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[22:38:01] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[22:38:01] [main/INFO]: Enforcing Correct Generator for minecraft:the_end.
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4c24072f)
+[22:38:01] [main/INFO]: Added 2 Biomes
+[22:38:01] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[22:38:01] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[22:38:01] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[22:38:01] [main/INFO]: Make sure features are loaded from terrablender:org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:38:01] [main/INFO]: Created WoverChunkGenerator with org.betterx.wover.generator.impl.biomesource.end.WoverEndBiomeSource
+[22:38:01] [main/INFO]: Loading World with initially configured Dimensions.
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - The End  BiomeSource (4c24072f)
+[22:38:01] [main/INFO]: Added 2 Biomes
+[22:38:01] [main/INFO]:  - minecraft:end_barrens, subbiomes=1
+[22:38:01] [main/INFO]:  - minecraft:end_midlands, subbiomes=1
+[22:38:01] [main/INFO]: No Barrens Biomes found. Disabling by using land Biomes
+[22:38:01] [main/INFO]: Updating Pickers for WoVer - Nether BiomeSource (37af5baa)
+[22:38:01] [main/INFO]: Added 11 Biomes
+[22:38:01] [main/INFO]:  - betternether:poor_nether_grasslands, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_warped_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_fungiwoods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:sulfuric_bone_reef, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:upside_down_forest_cleared, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_pinewood, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:soul_plain, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:old_swampland, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:crimson_glowing_woods, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:flooded_deltas, subbiomes=1
+[22:38:01] [main/INFO]:  - betternether:nether_swampland_terraces, subbiomes=1
+[22:38:01] [main/INFO]: Applied 56 biome modifications and added 16 tags to 18 of 288 biomes in 50.74 ms
+[22:38:02] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22:38:02] [main/INFO]: Applied 3246 biome modifications to 288 of 288 new biomes in 474.0 ms
+[22:38:02] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[22:38:02] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[22:38:02] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[22:38:02] [Server thread/INFO]: Encoded Weapon Attribute registry size (with package overhead): 79139 bytes (in 8 string chunks with the size of 10000)
+[22:38:02] [Server thread/INFO]: Loading server configs...
+[22:38:03] [Server thread/INFO]: [WTHIT] Plugin config reloaded
+[22:38:03] [Server thread/INFO]: Starting minecraft server version 1.21
+[22:38:03] [Server thread/INFO]: Loading properties
+[22:38:03] [Server thread/INFO]: Default game type: SURVIVAL
+[22:38:03] [Server thread/INFO]: Generating keypair
+[22:38:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:38:03] [Server thread/INFO]: Using epoll channel type
+[22:38:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:38:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:38:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:38:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:38:03] [Server thread/INFO]: Preparing level "world"
+[22:38:03] [Server thread/INFO]: World Dimensions: 
  - minecraft:overworld: 
-     class_3754 (227aa349)
+     class_3754 (100f54e3)
          preset     = none
          noise      = minecraft:overworld
          features   = terralith(385), minecraft(156), farmersdelight(9), rocks(21), clifftree(33), biomesoplenty(203), waystones(3), croptopia(29)
-     class_4766 (1b9ec971)
+     class_4766 (19f95ee6)
          biomes     = 209
          namespaces = minecraft(53), terralith(95), biomesoplenty(61)
+ - minecraft:the_nether: 
+     WoVer - Chunk Generator (7c79a904)
+         preset     = none
+         noise      = minecraft:nether
+         features   = minecraft(41), rocks(6), betternether(95), incendium(36), biomesoplenty(27), waystones(1), croptopia(2)
+     WoVer - Nether BiomeSource (37af5baa)
+         biomes     = 40
+         namespaces = betternether(22), minecraft(5), incendium(8), biomesoplenty(5)
+         seed       = 0
+         height     = 192
+         config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
  - minecraft:the_end: 
-     WoVer - Chunk Generator (404377c9)
+     WoVer - Chunk Generator (76346406)
          preset     = none
          noise      = minecraft:end
          features   = minecraft(4), rocks(6), biomesoplenty(17), waystones(1), croptopia(2), nullscape(17)
-     WoVer - The End  BiomeSource (1a5884a)
+     WoVer - The End  BiomeSource (4c24072f)
          biomes     = 11
          namespaces = minecraft(5), biomesoplenty(3), nullscape(3)
          seed       = 0
          height     = 288
          deciders   = 0
          config     = EndConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadius=1024, voidBiomesSize=16, centerBiomesSize=16, landBiomesSize=16, barrensBiomesSize=16}
-[07:13:19] [Server thread/INFO]: Merged 22 additional Surface Rules for Dimension minecraft:the_nether => 147 (1.379 ms) using WoVer - Nether BiomeSource (45b174e3)
+[22:38:03] [Server thread/INFO]: Merged 22 additional Surface Rules for Dimension minecraft:the_nether => 147 (3.617 ms) using WoVer - Nether BiomeSource (37af5baa)
     biomes     = 40
-    namespaces = betternether(22), incendium(8), biomesoplenty(5), minecraft(5)
+    namespaces = betternether(22), minecraft(5), incendium(8), biomesoplenty(5)
     seed       = 0
     height     = 192
     config     = NetherConfig{mapVersion=hex, useVerticalBiomes=true, biomeSize=16, biomeSizeVertical=5}
-[07:13:19] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
-[07:13:21] [Server thread/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
-[07:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:13:22] [Worker-Main-1/INFO]: menu.preparingSpawn
-[07:13:22] [Worker-Main-1/INFO]: menu.preparingSpawn
-[07:13:22] [Worker-Main-1/INFO]: menu.preparingSpawn
-[07:13:22] [Worker-Main-1/INFO]: menu.preparingSpawn
-[07:13:23] [Server thread/INFO]: Time elapsed: 1974 ms
-[07:13:23] [Server thread/INFO]: Done (4.020s)! For help, type "help"
-[07:13:23] [Server thread/WARN]: Dedicated server took 50.709 seconds to load
-[07:13:23] [Server thread/INFO]: Loaded config for: farsight.json
-[07:13:23] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[07:13:23] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'engineering-carried.gl.at.ply.gg'
-[07:13:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 3631
-[07:13:41] [Server thread/INFO]: coete10[/127.90.179.32:53167] logged in with entity id 60 at (1177.3914822896982, 75.0, -839.8350153350369)
-[07:13:42] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[07:13:42] [Server thread/INFO]: multiplayer.player.joined
-[07:13:42] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to coete10
-[07:13:43] [Server thread/INFO]: Received client config 'fallingtrees:fallingtrees_client' from coete10
-[07:13:43] [Server thread/INFO]: [ShulkerBoxTooltip] coete10: protocol version: 2.0
-[07:13:43] [Server thread/INFO]: [voicechat] Received secret request of coete10 (18)
-[07:13:43] [Server thread/INFO]: [voicechat] Sent secret to coete10
-[07:13:43] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[07:13:43] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
-[07:13:43] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
-[07:13:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
-[07:13:44] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
-[07:13:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3a110192-6635-3833-abff-63264a24f741
-[07:13:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3a110192-6635-3833-abff-63264a24f741
-[07:13:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player coete10 (3a110192-6635-3833-abff-63264a24f741) successfully connected to voice chat
-[07:14:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5636ms or 112 ticks behind
-[07:18:25] [Server thread/INFO]: coete10 lost connection: multiplayer.disconnect.generic
-[07:18:25] [Server thread/INFO]: multiplayer.player.left
-[07:18:25] [Server thread/INFO]: [voicechat] Disconnecting client coete10
-[07:18:25] [Server thread/WARN]: handleDisconnection() called twice
-[07:18:29] [Server thread/INFO]: commands.stop.stopping
-[07:18:29] [Server thread/INFO]: Stopping server
-[07:18:29] [Server thread/INFO]: Saving players
-[07:18:29] [Server thread/INFO]: Saving worlds
-[07:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
-[07:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
-[07:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
-[07:18:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:18:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:18:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:18:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:18:29] [Server thread/INFO]: Unloading server configs...
-[07:18:29] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
-[07:18:29] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
-[07:18:29] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
+[22:38:04] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.collections.chunk_tickets.SortedArraySetMixin. Skipping method.
+[22:38:05] [Server thread/WARN]: Lithium Class Analysis Error: Class org.betterx.bclib.blocks.BaseLeavesBlock cannot be analysed, because getting declared methods crashes with NoClassDefFoundError: net/minecraft/class_793. This is usually caused by modded entities declaring methods that have a return type or parameter type that is annotated with @Environment(value=EnvType.CLIENT). Loading the type is not possible, because it only exists in the CLIENT environment. The recommended fix is to annotate the method with this argument or return type with the same annotation. Lithium handles this error by assuming the class cannot be included in some optimizations.
+[22:38:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:38:06] [Worker-Main-1/INFO]: menu.preparingSpawn
+[22:38:06] [Worker-Main-1/INFO]: menu.preparingSpawn
+[22:38:06] [Worker-Main-1/INFO]: menu.preparingSpawn
+[22:38:06] [Worker-Main-1/INFO]: menu.preparingSpawn
+[22:38:07] [Server thread/INFO]: Time elapsed: 2309 ms
+[22:38:07] [Server thread/INFO]: Done (4.342s)! For help, type "help"
+[22:38:07] [Server thread/WARN]: Dedicated server took 57.124 seconds to load
+[22:38:07] [Server thread/INFO]: Loaded config for: farsight.json
+[22:38:07] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[22:38:07] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'engineering-carried.gl.at.ply.gg'
+[22:38:07] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 3631
+[22:39:04] [Server thread/INFO]: coete10[/127.90.179.32:54401] logged in with entity id 62 at (1175.7912350790225, 80.0, -826.55867778805)
+[22:39:04] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[22:39:04] [Server thread/INFO]: multiplayer.player.joined
+[22:39:05] [Server thread/INFO]: Sending common config 'fallingtrees:fallingtrees_common' to coete10
+[22:39:06] [Server thread/INFO]: Received client config 'fallingtrees:fallingtrees_client' from coete10
+[22:39:06] [Server thread/INFO]: [ShulkerBoxTooltip] coete10: protocol version: 2.0
+[22:39:06] [Server thread/INFO]: [voicechat] Received secret request of coete10 (18)
+[22:39:06] [Server thread/INFO]: [voicechat] Sent secret to coete10
+[22:39:06] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[22:39:06] [Server thread/INFO]: [ShulkerBoxTooltip] overriding preview provider shulkerboxtooltip:trapped_chest with shulkerboxtooltip:chest for item minecraft:chest
+[22:39:06] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 31 providers for mod shulkerboxtooltip
+[22:39:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2264ms or 45 ticks behind
+[22:39:07] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
+[22:39:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 3a110192-6635-3833-abff-63264a24f741
+[22:39:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 3a110192-6635-3833-abff-63264a24f741
+[22:39:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player coete10 (3a110192-6635-3833-abff-63264a24f741) successfully connected to voice chat
+[22:39:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4473ms or 89 ticks behind
+[22:47:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[22:52:11] [Server thread/INFO]: coete10 lost connection: multiplayer.disconnect.generic
+[22:52:11] [Server thread/INFO]: multiplayer.player.left
+[22:52:11] [Server thread/INFO]: [voicechat] Disconnecting client coete10
+[22:52:15] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:16] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:17] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:17] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:17] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:17] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:17] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:18] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:18] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:18] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:27] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:27] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:27] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: Received unknown packet id 3
+	at knot/net.minecraft.class_9136.method_56425(class_9136.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9136.decode(class_9136.java:14) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2543.decode(class_2543.java:31) ~[server-intermediary.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.dequeue(FlowControlHandler.java:202) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.flow.FlowControlHandler.channelRead(FlowControlHandler.java:164) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/net.minecraft.class_3238.channelRead(class_3238.java:74) ~[server-intermediary.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:509) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:407) ~[netty-transport-classes-epoll-4.1.97.Final.jar:?]
+	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
+	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:52:30] [Server thread/INFO]: commands.stop.stopping
+[22:52:30] [Server thread/INFO]: Stopping server
+[22:52:30] [Server thread/INFO]: Saving players
+[22:52:30] [Server thread/INFO]: Saving worlds
+[22:52:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[22:52:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[22:52:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[22:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:52:31] [Server thread/INFO]: Unloading server configs...
+[22:52:31] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
+[22:52:31] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[22:52:31] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
