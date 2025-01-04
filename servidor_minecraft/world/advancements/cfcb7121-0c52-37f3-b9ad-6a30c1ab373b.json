@@ -14407,5 +14407,17 @@
     },
     "done": true
   },
+  "comforts:recipes/decorations/hammock_white": {
+    "criteria": {
+      "has_white_wool": "2025-01-04 01:54:13 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_white": {
+    "criteria": {
+      "has_white_wool": "2025-01-04 01:54:13 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
