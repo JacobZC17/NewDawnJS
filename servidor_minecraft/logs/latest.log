@@ -3724,3 +3724,6 @@ io.netty.handler.codec.DecoderException: Received unknown packet id 3
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
 [03:18:11] [Server thread/INFO]: chat.type.admin
 [03:19:45] [Server thread/INFO]: chat.type.admin
+[03:26:25] [Server thread/INFO]: chat.type.admin
+[03:26:53] [Server thread/INFO]: chat.type.admin
+[03:28:33] [Server thread/INFO]: chat.type.admin
