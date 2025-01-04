@@ -10575,6 +10575,12 @@
     },
     "done": true
   },
+  "hopo:minecraft/adventure/locate_all_underwater_structures": {
+    "criteria": {
+      "locate_underwater_small_ruins": "2025-01-04 01:11:32 +0000"
+    },
+    "done": false
+  },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
       "illager_camp": "2025-01-04 00:41:02 +0000"
