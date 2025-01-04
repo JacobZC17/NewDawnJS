@@ -1691,3 +1691,25 @@ Caused by: java.io.IOException: Invalid tag id: 116
 [01:16:43] [Server thread/INFO]: [Not Secure] chat.type.text
 [01:16:43] [Server thread/INFO]: [Not Secure] chat.type.text
 [01:16:44] [Server thread/INFO]: [Not Secure] chat.type.text
+[01:22:12] [Server thread/INFO]: chat.type.admin
+[01:25:35] [Server thread/INFO]: coete10 lost connection: multiplayer.disconnect.generic
+[01:25:35] [Server thread/INFO]: multiplayer.player.left
+[01:25:35] [Server thread/INFO]: [voicechat] Disconnecting client coete10
+[01:25:37] [Server thread/INFO]: xXSansXx20 lost connection: multiplayer.disconnect.generic
+[01:25:37] [Server thread/INFO]: multiplayer.player.left
+[01:25:37] [Server thread/INFO]: [voicechat] Disconnecting client xXSansXx20
+[01:25:42] [Server thread/INFO]: commands.stop.stopping
+[01:25:43] [Server thread/INFO]: Stopping server
+[01:25:43] [Server thread/INFO]: Saving players
+[01:25:43] [Server thread/INFO]: Saving worlds
+[01:25:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:overworld
+[01:25:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_nether
+[01:25:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mundo nuevo]'/minecraft:the_end
+[01:25:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:25:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:25:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:25:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:25:43] [Server thread/INFO]: Unloading server configs...
+[01:25:43] [Server thread/INFO]: Sending config unload event for refurbished_furniture.server.toml
+[01:25:43] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[01:25:43] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
