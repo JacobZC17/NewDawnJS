@@ -1005,3 +1005,406 @@ java.lang.NullPointerException: Cannot invoke "one.spectra.better_chests.common.
 [01:40:22] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
 [01:40:22] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
 [01:40:22] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:41:43] [Server thread/INFO]: chat.type.admin
+[01:45:08] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:08] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:45:08] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:45:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3075ms or 61 ticks behind
+[01:45:16] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:45:16] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:32] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:32] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:45:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3535ms or 70 ticks behind
+[01:45:46] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:48] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-188, y=-56, z=1308}
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:45:49] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:45:55] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:55] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:45:58] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:46:13] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:17] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:17] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:46:17] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[01:46:17] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[01:46:17] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[01:46:17] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[01:46:17] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[01:46:19] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:19] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=15, y=-40, z=-499}
+[01:46:19] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=15, y=-40, z=-503}
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:22] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:23] [Worker-Main-2/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:23] [Worker-Main-2/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:23] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:27] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:27] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:30] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:30] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:30] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:46:30] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:46:32] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:32] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4269ms or 85 ticks behind
+[01:46:34] [Worker-Main-3/ERROR]: Couldn't load structure mvs:houses/medium_igloo_2
+net.minecraft.class_8911: Loading NBT data
+	at knot/net.minecraft.class_2487.method_10581(class_2487.java:530) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:48) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:31) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2507.method_52892(class_2507.java:191) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2507.method_10626(class_2507.java:186) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2507.method_10625(class_2507.java:111) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2507.method_10629(class_2507.java:51) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3485.method_15090(class_3485.java:242) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3485.method_44231(class_3485.java:232) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3485.method_15088(class_3485.java:136) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3485.method_44245(class_3485.java:114) ~[server-intermediary.jar:?]
+	at knot/com.google.common.cache.LocalCache.lambda$computeIfAbsent$0(LocalCache.java:4269) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$LoadingValueReference.compute(LocalCache.java:3606) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache$Segment.compute(LocalCache.java:2278) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache.compute(LocalCache.java:4262) ~[guava-32.1.2-jre.jar:?]
+	at knot/com.google.common.cache.LocalCache.computeIfAbsent(LocalCache.java:4269) ~[guava-32.1.2-jre.jar:?]
+	at knot/net.minecraft.class_3485.method_15094(class_3485.java:104) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3485.method_15091(class_3485.java:92) ~[server-intermediary.jar:?]
+	at knot/com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-8.0.16.jar:?]
+	at knot/net.minecraft.class_3781.method_27233(class_3781.java:94) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3781.method_16628(class_3781.java:134) ~[server-intermediary.jar:?]
+	at knot/com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:108) ~[mvs-4.2.6-1.21.jar:?]
+	at knot/com.finndog.mvs.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[mvs-4.2.6-1.21.jar:?]
+	at knot/net.minecraft.class_3195.method_47932(class_3195.java:239) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3195.method_41614(class_3195.java:160) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2794.method_41044(class_2794.java:517) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2794.method_41041(class_2794.java:470) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at knot/net.minecraft.class_2794.method_16129(class_2794.java:452) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9310.method_57601(class_9310.java:38) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_60442(class_3898.java:632) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9761.method_60461(class_9761.java:96) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9759.method_60428(class_9759.java:143) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9759.method_60427(class_9759.java:121) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9759.method_60432(class_9759.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9759.method_60424(class_9759.java:59) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_60446(class_3898.java:665) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3900.method_17634(class_3900.java:62) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3846.method_16907(class_3846.java:91) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3846.method_16900(class_3846.java:146) [server-intermediary.jar:?]
+	at knot/net.minecraft.class_3846.run(class_3846.java:102) [server-intermediary.jar:?]
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.IOException: Invalid tag id: 116
+	at knot/net.minecraft.class_4614$1.method_39878(class_4614.java:58) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4614$1.method_23264(class_4614.java:63) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
+	... 55 more
+[01:46:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:35] [Worker-Main-1/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:35] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:36] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:
+[01:46:41] [Worker-Main-2/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:43] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:44] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:46] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:46] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:47] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:47] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:48] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:46:48] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:46:48] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:46:48] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:46:51] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:51] [Worker-Main-3/WARN]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[01:46:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4402ms or 88 ticks behind
+[01:47:11] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:11] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:11] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:11] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:15] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/oak_mineshaft -> hopo:room/oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:18] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:oak_mineshaft -> hopo:oak_mineshaft
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned_trident -> hopo:mobs/drowned_trident
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned_trident -> hopo:mobs/drowned_trident
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/pufferfish -> hopo:mobs/pufferfish
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/pufferfish -> hopo:mobs/pufferfish
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/drowned -> hopo:mobs/drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/gold_drowned -> hopo:mobs/gold_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/pufferfish -> hopo:mobs/pufferfish
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/fast_drowned -> hopo:mobs/fast_drowned
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/turtle -> hopo:mobs/turtle
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:47:22] [Worker-Main-2/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:underwater_city -> hopo:underwater_city
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/dolphin -> hopo:mobs/dolphin
+[01:47:23] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/skeleton -> hopo:mobs/skeleton
+[01:49:48] [Server thread/INFO]: death.attack.mob
+[01:49:50] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
+[01:49:54] [Server thread/INFO]: chat.type.admin
+[01:50:03] [Server thread/INFO]: death.attack.mob
+[01:50:04] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
+[01:50:08] [Server thread/INFO]: chat.type.admin
+[01:50:38] [Server thread/INFO]: death.attack.mob
+[01:50:40] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
+[01:50:43] [Server thread/INFO]: chat.type.admin
+[01:50:46] [Server thread/INFO]: death.attack.mob
+[01:50:48] [Server thread/INFO]: [do_a_barrel_roll] Client of coete10 accepted server config.
+[01:50:51] [Server thread/INFO]: chat.type.admin
+[01:51:00] [Server thread/INFO]: death.attack.mob
+[01:51:02] [Server thread/INFO]: [do_a_barrel_roll] Client of xXSansXx20 accepted server config.
