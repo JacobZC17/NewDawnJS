@@ -14321,7 +14321,8 @@
   },
   "hopo:minecraft/adventure/locate_all_underwater_structures": {
     "criteria": {
-      "locate_underwater_small_ruins": "2025-01-04 01:11:36 +0000"
+      "locate_underwater_small_ruins": "2025-01-04 01:11:36 +0000",
+      "locate_ruin_cold": "2025-01-04 02:29:44 +0000"
     },
     "done": false
   },
@@ -14409,77 +14410,23 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "comforts:recipes/decorations/hammock_white": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
+      "has_white_wool": "2025-01-04 01:54:13 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "comforts:recipes/decorations/sleeping_bag_white": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
+      "has_white_wool": "2025-01-04 01:54:13 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "betterarcheology:recipes/tools/diamond_brush": {
     "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
+      "has_diamond": "2025-01-04 02:05:58 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-04 02:21:48 +0000"
-    },
-    "done": false
+    "done": true
   },
   "croptopia:recipes/food/cooked_tuna_from_tuna": {
     "criteria": {
@@ -14499,21 +14446,45 @@
     },
     "done": true
   },
-  "comforts:recipes/decorations/hammock_white": {
+  "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
-      "has_white_wool": "2025-01-04 01:54:13 +0000"
+      "has_brown_wool": "2025-01-04 02:24:31 +0000"
     },
     "done": true
   },
-  "comforts:recipes/decorations/sleeping_bag_white": {
+  "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
-      "has_white_wool": "2025-01-04 01:54:13 +0000"
+      "has_brown_wool": "2025-01-04 02:24:31 +0000"
     },
     "done": true
   },
-  "betterarcheology:recipes/tools/diamond_brush": {
+  "handcrafted:recipes/misc/brown_sheet": {
     "criteria": {
-      "has_diamond": "2025-01-04 02:05:58 +0000"
+      "has_brown_sheet": "2025-01-04 02:24:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-01-04 02:24:31 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/hammock_brown": {
+    "criteria": {
+      "has_brown_wool": "2025-01-04 02:24:31 +0000"
+    },
+    "done": true
+  },
+  "comforts:recipes/decorations/sleeping_bag_brown": {
+    "criteria": {
+      "has_brown_wool": "2025-01-04 02:24:31 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/brown_cushion": {
+    "criteria": {
+      "has_brown_cushion": "2025-01-04 02:24:31 +0000"
     },
     "done": true
   },

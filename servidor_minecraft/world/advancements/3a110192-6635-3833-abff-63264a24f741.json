@@ -10596,7 +10596,8 @@
   },
   "hopo:minecraft/adventure/locate_all_underwater_structures": {
     "criteria": {
-      "locate_underwater_small_ruins": "2025-01-04 01:11:32 +0000"
+      "locate_underwater_small_ruins": "2025-01-04 01:11:32 +0000",
+      "locate_ruin_cold": "2025-01-04 02:29:42 +0000"
     },
     "done": false
   },
