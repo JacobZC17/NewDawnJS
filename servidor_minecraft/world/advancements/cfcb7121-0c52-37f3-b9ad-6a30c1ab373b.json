@@ -43,6 +43,7 @@
       "prairie": "2024-12-15 02:42:24 +0000",
       "grassland": "2024-12-28 00:51:38 +0000",
       "snowy_fir_clearing": "2024-12-15 02:17:42 +0000",
+      "snowy_coniferous_forest": "2025-01-04 00:32:39 +0000",
       "gravel_beach": "2024-12-29 01:47:16 +0000",
       "glowing_grotto": "2024-12-29 04:41:30 +0000",
       "orchard": "2024-12-15 00:47:06 +0000",
@@ -14255,6 +14256,12 @@
   "minecraft:basicweapons/got_cobblestone": {
     "criteria": {
       "got_cobblestone": "2025-01-02 03:36:53 +0000"
+    },
+    "done": true
+  },
+  "usefulhats:recipes/combat/wing_helmet": {
+    "criteria": {
+      "has_feather": "2025-01-04 00:25:31 +0000"
     },
     "done": true
   },
