@@ -10673,5 +10673,17 @@
     },
     "done": true
   },
+  "betternether:recipes/misc/wall_red_brown": {
+    "criteria": {
+      "has_red_mushroom": "2025-01-04 02:38:23 +0000"
+    },
+    "done": true
+  },
+  "usefulhats:recipes/combat/mushroom_hat": {
+    "criteria": {
+      "has_mushroom": "2025-01-04 02:38:23 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
