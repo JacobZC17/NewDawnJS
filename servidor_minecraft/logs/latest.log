@@ -1429,3 +1429,114 @@ io.netty.handler.codec.DecoderException: Received unknown packet id 3
 	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
 [00:25:20] [Server thread/INFO]: chat.type.admin
+[00:36:02] [Server thread/INFO]: chat.type.admin
+[00:36:22] [Server thread/INFO]: chat.type.admin
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:18] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:19] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:20] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:20] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:20] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:39:20] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:40:48] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/poison_skeleton -> hopo:mobs/poison_skeleton
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/vindicator_miner -> hopo:mobs/vindicator_miner
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:40:49] [Worker-Main-1/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:40:57] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=1517, y=82, z=743}
+[00:41:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3769ms or 75 ticks behind
+[00:41:43] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[00:41:43] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[00:41:44] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[00:41:44] [Worker-Main-3/WARN]: Template pool fallback chain found: minecraft:trial_chambers/chamber/entrance_cap -> minecraft:trial_chambers/chamber/entrance_cap
+[00:41:44] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/guard -> hopo:mobs/guard
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:deepslate_mineshaft -> hopo:deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:room/deepslate_mineshaft -> hopo:room/deepslate_mineshaft
+[00:43:02] [Worker-Main-3/WARN]: Template pool fallback chain found: hopo:mobs/archer -> hopo:mobs/archer
+[00:43:23] [Server thread/INFO]: chat.type.admin
+[00:43:24] [Server thread/INFO]: chat.type.admin
+[00:43:25] [Server thread/INFO]: chat.type.admin
+[00:43:26] [Server thread/INFO]: chat.type.admin
+[00:43:26] [Server thread/INFO]: chat.type.admin
+[00:43:26] [Server thread/INFO]: chat.type.admin
+[00:43:27] [Server thread/INFO]: chat.type.admin
+[00:43:28] [Server thread/INFO]: chat.type.admin
+[00:43:33] [Server thread/INFO]: [Not Secure] chat.type.text
+[00:43:34] [Server thread/INFO]: chat.type.admin
+[00:43:34] [Server thread/INFO]: chat.type.admin
+[00:43:35] [Server thread/INFO]: chat.type.admin
+[00:43:36] [Server thread/INFO]: chat.type.admin
+[00:43:37] [Server thread/INFO]: chat.type.admin
+[00:43:38] [Server thread/INFO]: chat.type.admin
+[00:43:38] [Server thread/INFO]: chat.type.admin
+[00:49:07] [Server thread/INFO]: chat.type.admin
+[00:51:00] [Server thread/INFO]: chat.type.admin
+[00:51:20] [Server thread/INFO]: chat.type.admin
+[00:52:31] [Server thread/INFO]: chat.type.admin
+[00:53:21] [Server thread/INFO]: chat.type.admin
